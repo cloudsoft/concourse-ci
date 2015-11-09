@@ -1,0 +1,11 @@
+---
+platform: linux
+
+image: docker:///maven#3.3.3-jdk-8
+
+inputs:
+- name: brooklyn-tosca
+- name: concourse
+
+run:
+  path: concourse/alien4cloud/brooklyn.sh
