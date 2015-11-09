@@ -1,7 +1,7 @@
 ---
 platform: linux
 
-image: docker:///maven#3.3.3-jdk-8
+image: docker:///cloudsoft/ubuntu#alien
 
 inputs:
 - name: tosca-normative-types
